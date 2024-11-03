@@ -72,7 +72,7 @@ func main() {
 
 func checkAndAppendEntries(server *raft.Server,i int) {
 	if server.IsLeader() {
-		fmt.Println("Server %d is the leader. Sending AppendEntries to peers...\n") 
+		fmt.Printf("Server %d is the leader. Sending AppendEntries to peers...\n", i) 
 		// Example log entry to append
         server.Submit(i)
 		fmt.Println(i) 
