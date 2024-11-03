@@ -1,0 +1,412 @@
+2024/11/02 15:24:09 [3] becomes Candidate (currentTerm=223); log=[]
+2024/11/02 15:24:09 [3] election timer started (197ms), term=223
+2024/11/02 15:24:09 [3] sending RequestVote to 1: {Term:223 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:09 [3] sending RequestVote to 2: {Term:223 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:09 [1] becomes Candidate (currentTerm=225); log=[]
+2024/11/02 15:24:09 [1] election timer started (238ms), term=225
+2024/11/02 15:24:09 [1] sending RequestVote to 2: {Term:225 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:09 [1] sending RequestVote to 3: {Term:225 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [2] becomes Candidate (currentTerm=227); log=[]
+2024/11/02 15:24:10 [2] election timer started (260ms), term=227
+2024/11/02 15:24:10 [2] sending RequestVote to 1: {Term:227 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [2] sending RequestVote to 3: {Term:227 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [3] becomes Candidate (currentTerm=224); log=[]
+2024/11/02 15:24:10 [3] election timer started (209ms), term=224
+2024/11/02 15:24:10 [3] sending RequestVote to 1: {Term:224 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [3] sending RequestVote to 2: {Term:224 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [1] becomes Candidate (currentTerm=226); log=[]
+2024/11/02 15:24:10 [1] election timer started (216ms), term=226
+2024/11/02 15:24:10 [1] sending RequestVote to 3: {Term:226 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [1] sending RequestVote to 2: {Term:226 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [2] becomes Candidate (currentTerm=228); log=[]
+2024/11/02 15:24:10 [2] election timer started (209ms), term=228
+2024/11/02 15:24:10 [2] sending RequestVote to 1: {Term:228 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [2] sending RequestVote to 3: {Term:228 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [3] becomes Candidate (currentTerm=225); log=[]
+2024/11/02 15:24:10 [3] election timer started (167ms), term=225
+2024/11/02 15:24:10 [3] sending RequestVote to 1: {Term:225 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [3] sending RequestVote to 2: {Term:225 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [1] becomes Candidate (currentTerm=227); log=[]
+2024/11/02 15:24:10 [1] election timer started (238ms), term=227
+2024/11/02 15:24:10 [1] sending RequestVote to 3: {Term:227 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [1] sending RequestVote to 2: {Term:227 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [2] becomes Candidate (currentTerm=229); log=[]
+2024/11/02 15:24:10 [2] election timer started (297ms), term=229
+2024/11/02 15:24:10 [2] sending RequestVote to 3: {Term:229 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [2] sending RequestVote to 1: {Term:229 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [3] becomes Candidate (currentTerm=226); log=[]
+2024/11/02 15:24:10 [3] election timer started (275ms), term=226
+2024/11/02 15:24:10 [3] sending RequestVote to 2: {Term:226 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [3] sending RequestVote to 1: {Term:226 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [1] becomes Candidate (currentTerm=228); log=[]
+2024/11/02 15:24:10 [1] election timer started (273ms), term=228
+2024/11/02 15:24:10 [1] sending RequestVote to 2: {Term:228 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [1] sending RequestVote to 3: {Term:228 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [2] becomes Candidate (currentTerm=230); log=[]
+2024/11/02 15:24:10 [2] election timer started (160ms), term=230
+2024/11/02 15:24:10 [2] sending RequestVote to 1: {Term:230 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [2] sending RequestVote to 3: {Term:230 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [3] becomes Candidate (currentTerm=227); log=[]
+2024/11/02 15:24:10 [3] election timer started (292ms), term=227
+2024/11/02 15:24:10 [3] sending RequestVote to 2: {Term:227 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [3] sending RequestVote to 1: {Term:227 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [2] becomes Candidate (currentTerm=231); log=[]
+2024/11/02 15:24:10 [2] election timer started (155ms), term=231
+2024/11/02 15:24:10 [2] sending RequestVote to 1: {Term:231 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [2] sending RequestVote to 3: {Term:231 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [1] becomes Candidate (currentTerm=229); log=[]
+2024/11/02 15:24:10 [1] sending RequestVote to 2: {Term:229 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [1] sending RequestVote to 3: {Term:229 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:10 [1] election timer started (199ms), term=229
+2024/11/02 15:24:11 [3] becomes Candidate (currentTerm=228); log=[]
+2024/11/02 15:24:11 [3] election timer started (244ms), term=228
+2024/11/02 15:24:11 [3] sending RequestVote to 1: {Term:228 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [3] sending RequestVote to 2: {Term:228 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [2] becomes Candidate (currentTerm=232); log=[]
+2024/11/02 15:24:11 [2] election timer started (246ms), term=232
+2024/11/02 15:24:11 [2] sending RequestVote to 1: {Term:232 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [2] sending RequestVote to 3: {Term:232 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [1] becomes Candidate (currentTerm=230); log=[]
+2024/11/02 15:24:11 [1] election timer started (194ms), term=230
+2024/11/02 15:24:11 [1] sending RequestVote to 2: {Term:230 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [1] sending RequestVote to 3: {Term:230 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [3] becomes Candidate (currentTerm=229); log=[]
+2024/11/02 15:24:11 [3] election timer started (276ms), term=229
+2024/11/02 15:24:11 [3] sending RequestVote to 1: {Term:229 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [3] sending RequestVote to 2: {Term:229 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [2] becomes Candidate (currentTerm=233); log=[]
+2024/11/02 15:24:11 [2] election timer started (176ms), term=233
+2024/11/02 15:24:11 [2] sending RequestVote to 1: {Term:233 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [2] sending RequestVote to 3: {Term:233 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [1] becomes Candidate (currentTerm=231); log=[]
+2024/11/02 15:24:11 [1] election timer started (239ms), term=231
+2024/11/02 15:24:11 [1] sending RequestVote to 2: {Term:231 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [1] sending RequestVote to 3: {Term:231 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [2] becomes Candidate (currentTerm=234); log=[]
+2024/11/02 15:24:11 [2] election timer started (284ms), term=234
+2024/11/02 15:24:11 [2] sending RequestVote to 1: {Term:234 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [2] sending RequestVote to 3: {Term:234 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [1] becomes Candidate (currentTerm=232); log=[]
+2024/11/02 15:24:11 [1] election timer started (219ms), term=232
+2024/11/02 15:24:11 [1] sending RequestVote to 2: {Term:232 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [1] sending RequestVote to 3: {Term:232 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [3] becomes Candidate (currentTerm=230); log=[]
+2024/11/02 15:24:11 [3] election timer started (237ms), term=230
+2024/11/02 15:24:11 [3] sending RequestVote to 1: {Term:230 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [3] sending RequestVote to 2: {Term:230 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [2] becomes Candidate (currentTerm=235); log=[]
+2024/11/02 15:24:11 [2] election timer started (157ms), term=235
+2024/11/02 15:24:11 [2] sending RequestVote to 1: {Term:235 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [2] sending RequestVote to 3: {Term:235 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [1] becomes Candidate (currentTerm=233); log=[]
+2024/11/02 15:24:11 [1] election timer started (261ms), term=233
+2024/11/02 15:24:11 [1] sending RequestVote to 2: {Term:233 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [1] sending RequestVote to 3: {Term:233 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [3] becomes Candidate (currentTerm=231); log=[]
+2024/11/02 15:24:11 [3] election timer started (230ms), term=231
+2024/11/02 15:24:11 [3] sending RequestVote to 1: {Term:231 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [3] sending RequestVote to 2: {Term:231 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [2] becomes Candidate (currentTerm=236); log=[]
+2024/11/02 15:24:11 [2] election timer started (275ms), term=236
+2024/11/02 15:24:11 [2] sending RequestVote to 1: {Term:236 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:11 [2] sending RequestVote to 3: {Term:236 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [1] becomes Candidate (currentTerm=234); log=[]
+2024/11/02 15:24:12 [1] election timer started (248ms), term=234
+2024/11/02 15:24:12 [1] sending RequestVote to 3: {Term:234 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [1] sending RequestVote to 2: {Term:234 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] becomes Candidate (currentTerm=232); log=[]
+2024/11/02 15:24:12 [3] election timer started (162ms), term=232
+2024/11/02 15:24:12 [3] sending RequestVote to 1: {Term:232 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] sending RequestVote to 2: {Term:232 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [2] becomes Candidate (currentTerm=237); log=[]
+2024/11/02 15:24:12 [2] election timer started (176ms), term=237
+2024/11/02 15:24:12 [2] sending RequestVote to 1: {Term:237 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [2] sending RequestVote to 3: {Term:237 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] becomes Candidate (currentTerm=233); log=[]
+2024/11/02 15:24:12 [3] election timer started (239ms), term=233
+2024/11/02 15:24:12 [3] sending RequestVote to 1: {Term:233 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] sending RequestVote to 2: {Term:233 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [1] becomes Candidate (currentTerm=235); log=[]
+2024/11/02 15:24:12 [1] election timer started (208ms), term=235
+2024/11/02 15:24:12 [1] sending RequestVote to 2: {Term:235 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [1] sending RequestVote to 3: {Term:235 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [2] becomes Candidate (currentTerm=238); log=[]
+2024/11/02 15:24:12 [2] election timer started (152ms), term=238
+2024/11/02 15:24:12 [2] sending RequestVote to 1: {Term:238 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [2] sending RequestVote to 3: {Term:238 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] becomes Candidate (currentTerm=234); log=[]
+2024/11/02 15:24:12 [3] sending RequestVote to 1: {Term:234 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] sending RequestVote to 2: {Term:234 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] election timer started (162ms), term=234
+2024/11/02 15:24:12 [1] becomes Candidate (currentTerm=236); log=[]
+2024/11/02 15:24:12 [1] election timer started (235ms), term=236
+2024/11/02 15:24:12 [1] sending RequestVote to 2: {Term:236 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [1] sending RequestVote to 3: {Term:236 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [2] becomes Candidate (currentTerm=239); log=[]
+2024/11/02 15:24:12 [2] election timer started (228ms), term=239
+2024/11/02 15:24:12 [2] sending RequestVote to 3: {Term:239 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [2] sending RequestVote to 1: {Term:239 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] becomes Candidate (currentTerm=235); log=[]
+2024/11/02 15:24:12 [3] election timer started (169ms), term=235
+2024/11/02 15:24:12 [3] sending RequestVote to 2: {Term:235 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] sending RequestVote to 1: {Term:235 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [1] becomes Candidate (currentTerm=237); log=[]
+2024/11/02 15:24:12 [1] election timer started (212ms), term=237
+2024/11/02 15:24:12 [1] sending RequestVote to 2: {Term:237 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [1] sending RequestVote to 3: {Term:237 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [2] becomes Candidate (currentTerm=240); log=[]
+2024/11/02 15:24:12 [2] election timer started (150ms), term=240
+2024/11/02 15:24:12 [2] sending RequestVote to 3: {Term:240 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [2] sending RequestVote to 1: {Term:240 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] becomes Candidate (currentTerm=236); log=[]
+2024/11/02 15:24:12 [3] election timer started (255ms), term=236
+2024/11/02 15:24:12 [3] sending RequestVote to 1: {Term:236 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [3] sending RequestVote to 2: {Term:236 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [2] becomes Candidate (currentTerm=241); log=[]
+2024/11/02 15:24:12 [2] election timer started (279ms), term=241
+2024/11/02 15:24:12 [2] sending RequestVote to 3: {Term:241 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:12 [2] sending RequestVote to 1: {Term:241 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [1] becomes Candidate (currentTerm=238); log=[]
+2024/11/02 15:24:13 [1] election timer started (238ms), term=238
+2024/11/02 15:24:13 [1] sending RequestVote to 2: {Term:238 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [1] sending RequestVote to 3: {Term:238 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [3] becomes Candidate (currentTerm=237); log=[]
+2024/11/02 15:24:13 [3] election timer started (283ms), term=237
+2024/11/02 15:24:13 [3] sending RequestVote to 2: {Term:237 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [3] sending RequestVote to 1: {Term:237 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [1] becomes Candidate (currentTerm=239); log=[]
+2024/11/02 15:24:13 [1] election timer started (253ms), term=239
+2024/11/02 15:24:13 [1] sending RequestVote to 3: {Term:239 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [1] sending RequestVote to 2: {Term:239 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [2] becomes Candidate (currentTerm=242); log=[]
+2024/11/02 15:24:13 [2] election timer started (262ms), term=242
+2024/11/02 15:24:13 [2] sending RequestVote to 3: {Term:242 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [2] sending RequestVote to 1: {Term:242 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [3] becomes Candidate (currentTerm=238); log=[]
+2024/11/02 15:24:13 [3] election timer started (276ms), term=238
+2024/11/02 15:24:13 [3] sending RequestVote to 2: {Term:238 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [3] sending RequestVote to 1: {Term:238 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [1] becomes Candidate (currentTerm=240); log=[]
+2024/11/02 15:24:13 [1] election timer started (179ms), term=240
+2024/11/02 15:24:13 [1] sending RequestVote to 3: {Term:240 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [1] sending RequestVote to 2: {Term:240 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [2] becomes Candidate (currentTerm=243); log=[]
+2024/11/02 15:24:13 [2] election timer started (214ms), term=243
+2024/11/02 15:24:13 [2] sending RequestVote to 3: {Term:243 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [2] sending RequestVote to 1: {Term:243 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [3] becomes Candidate (currentTerm=239); log=[]
+2024/11/02 15:24:13 [3] election timer started (240ms), term=239
+2024/11/02 15:24:13 [3] sending RequestVote to 2: {Term:239 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [3] sending RequestVote to 1: {Term:239 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [1] becomes Candidate (currentTerm=241); log=[]
+2024/11/02 15:24:13 [1] election timer started (252ms), term=241
+2024/11/02 15:24:13 [1] sending RequestVote to 2: {Term:241 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [1] sending RequestVote to 3: {Term:241 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [2] becomes Candidate (currentTerm=244); log=[]
+2024/11/02 15:24:13 [2] election timer started (161ms), term=244
+2024/11/02 15:24:13 [2] sending RequestVote to 1: {Term:244 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [2] sending RequestVote to 3: {Term:244 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [3] becomes Candidate (currentTerm=240); log=[]
+2024/11/02 15:24:13 [3] election timer started (202ms), term=240
+2024/11/02 15:24:13 [3] sending RequestVote to 1: {Term:240 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [3] sending RequestVote to 2: {Term:240 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [2] becomes Candidate (currentTerm=245); log=[]
+2024/11/02 15:24:13 [2] election timer started (258ms), term=245
+2024/11/02 15:24:13 [2] sending RequestVote to 3: {Term:245 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [2] sending RequestVote to 1: {Term:245 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [1] becomes Candidate (currentTerm=242); log=[]
+2024/11/02 15:24:13 [1] election timer started (259ms), term=242
+2024/11/02 15:24:13 [1] sending RequestVote to 2: {Term:242 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:13 [1] sending RequestVote to 3: {Term:242 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [3] becomes Candidate (currentTerm=241); log=[]
+2024/11/02 15:24:14 [3] election timer started (151ms), term=241
+2024/11/02 15:24:14 [3] sending RequestVote to 1: {Term:241 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [3] sending RequestVote to 2: {Term:241 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [2] becomes Candidate (currentTerm=246); log=[]
+2024/11/02 15:24:14 [2] election timer started (282ms), term=246
+2024/11/02 15:24:14 [2] sending RequestVote to 1: {Term:246 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [2] sending RequestVote to 3: {Term:246 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [1] becomes Candidate (currentTerm=243); log=[]
+2024/11/02 15:24:14 [1] election timer started (190ms), term=243
+2024/11/02 15:24:14 [1] sending RequestVote to 2: {Term:243 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [1] sending RequestVote to 3: {Term:243 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [3] becomes Candidate (currentTerm=242); log=[]
+2024/11/02 15:24:14 [3] election timer started (253ms), term=242
+2024/11/02 15:24:14 [3] sending RequestVote to 1: {Term:242 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [3] sending RequestVote to 2: {Term:242 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [1] becomes Candidate (currentTerm=244); log=[]
+2024/11/02 15:24:14 [1] election timer started (272ms), term=244
+2024/11/02 15:24:14 [1] sending RequestVote to 2: {Term:244 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [1] sending RequestVote to 3: {Term:244 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [2] becomes Candidate (currentTerm=247); log=[]
+2024/11/02 15:24:14 [2] election timer started (216ms), term=247
+2024/11/02 15:24:14 [2] sending RequestVote to 1: {Term:247 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [2] sending RequestVote to 3: {Term:247 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [3] becomes Candidate (currentTerm=243); log=[]
+2024/11/02 15:24:14 [3] election timer started (275ms), term=243
+2024/11/02 15:24:14 [3] sending RequestVote to 2: {Term:243 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [3] sending RequestVote to 1: {Term:243 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [1] becomes Candidate (currentTerm=245); log=[]
+2024/11/02 15:24:14 [1] election timer started (172ms), term=245
+2024/11/02 15:24:14 [1] sending RequestVote to 2: {Term:245 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [1] sending RequestVote to 3: {Term:245 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [2] becomes Candidate (currentTerm=248); log=[]
+2024/11/02 15:24:14 [2] election timer started (279ms), term=248
+2024/11/02 15:24:14 [2] sending RequestVote to 1: {Term:248 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [2] sending RequestVote to 3: {Term:248 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [3] becomes Candidate (currentTerm=244); log=[]
+2024/11/02 15:24:14 [3] election timer started (278ms), term=244
+2024/11/02 15:24:14 [3] sending RequestVote to 1: {Term:244 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [3] sending RequestVote to 2: {Term:244 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [1] becomes Candidate (currentTerm=246); log=[]
+2024/11/02 15:24:14 [1] election timer started (165ms), term=246
+2024/11/02 15:24:14 [1] sending RequestVote to 2: {Term:246 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [1] sending RequestVote to 3: {Term:246 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [2] becomes Candidate (currentTerm=249); log=[]
+2024/11/02 15:24:14 [2] election timer started (242ms), term=249
+2024/11/02 15:24:14 [2] sending RequestVote to 1: {Term:249 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:14 [2] sending RequestVote to 3: {Term:249 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [1] becomes Candidate (currentTerm=247); log=[]
+2024/11/02 15:24:15 [1] election timer started (179ms), term=247
+2024/11/02 15:24:15 [1] sending RequestVote to 2: {Term:247 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [1] sending RequestVote to 3: {Term:247 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [3] becomes Candidate (currentTerm=245); log=[]
+2024/11/02 15:24:15 [3] election timer started (255ms), term=245
+2024/11/02 15:24:15 [3] sending RequestVote to 2: {Term:245 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [3] sending RequestVote to 1: {Term:245 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [1] becomes Candidate (currentTerm=248); log=[]
+2024/11/02 15:24:15 [1] election timer started (284ms), term=248
+2024/11/02 15:24:15 [1] sending RequestVote to 2: {Term:248 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [1] sending RequestVote to 3: {Term:248 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [2] becomes Candidate (currentTerm=250); log=[]
+2024/11/02 15:24:15 [2] election timer started (187ms), term=250
+2024/11/02 15:24:15 [2] sending RequestVote to 3: {Term:250 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [2] sending RequestVote to 1: {Term:250 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [3] becomes Candidate (currentTerm=246); log=[]
+2024/11/02 15:24:15 [3] election timer started (186ms), term=246
+2024/11/02 15:24:15 [3] sending RequestVote to 1: {Term:246 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [3] sending RequestVote to 2: {Term:246 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [2] becomes Candidate (currentTerm=251); log=[]
+2024/11/02 15:24:15 [2] election timer started (283ms), term=251
+2024/11/02 15:24:15 [2] sending RequestVote to 3: {Term:251 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [2] sending RequestVote to 1: {Term:251 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [1] becomes Candidate (currentTerm=249); log=[]
+2024/11/02 15:24:15 [1] election timer started (253ms), term=249
+2024/11/02 15:24:15 [1] sending RequestVote to 3: {Term:249 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [1] sending RequestVote to 2: {Term:249 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [3] becomes Candidate (currentTerm=247); log=[]
+2024/11/02 15:24:15 [3] election timer started (264ms), term=247
+2024/11/02 15:24:15 [3] sending RequestVote to 1: {Term:247 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [3] sending RequestVote to 2: {Term:247 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [2] becomes Candidate (currentTerm=252); log=[]
+2024/11/02 15:24:15 [2] election timer started (174ms), term=252
+2024/11/02 15:24:15 [2] sending RequestVote to 3: {Term:252 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [2] sending RequestVote to 1: {Term:252 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [1] becomes Candidate (currentTerm=250); log=[]
+2024/11/02 15:24:15 [1] election timer started (150ms), term=250
+2024/11/02 15:24:15 [1] sending RequestVote to 2: {Term:250 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [1] sending RequestVote to 3: {Term:250 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [3] becomes Candidate (currentTerm=248); log=[]
+2024/11/02 15:24:15 [3] election timer started (220ms), term=248
+2024/11/02 15:24:15 [3] sending RequestVote to 2: {Term:248 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [3] sending RequestVote to 1: {Term:248 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [2] becomes Candidate (currentTerm=253); log=[]
+2024/11/02 15:24:15 [2] election timer started (281ms), term=253
+2024/11/02 15:24:15 [2] sending RequestVote to 1: {Term:253 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [2] sending RequestVote to 3: {Term:253 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [1] becomes Candidate (currentTerm=251); log=[]
+2024/11/02 15:24:15 [1] election timer started (264ms), term=251
+2024/11/02 15:24:15 [1] sending RequestVote to 3: {Term:251 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:15 [1] sending RequestVote to 2: {Term:251 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [3] becomes Candidate (currentTerm=249); log=[]
+2024/11/02 15:24:16 [3] election timer started (263ms), term=249
+2024/11/02 15:24:16 [3] sending RequestVote to 1: {Term:249 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [3] sending RequestVote to 2: {Term:249 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [2] becomes Candidate (currentTerm=254); log=[]
+2024/11/02 15:24:16 [2] election timer started (212ms), term=254
+2024/11/02 15:24:16 [2] sending RequestVote to 1: {Term:254 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [2] sending RequestVote to 3: {Term:254 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [1] becomes Candidate (currentTerm=252); log=[]
+2024/11/02 15:24:16 [1] election timer started (230ms), term=252
+2024/11/02 15:24:16 [1] sending RequestVote to 3: {Term:252 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [1] sending RequestVote to 2: {Term:252 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [3] becomes Candidate (currentTerm=250); log=[]
+2024/11/02 15:24:16 [3] election timer started (205ms), term=250
+2024/11/02 15:24:16 [3] sending RequestVote to 1: {Term:250 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [3] sending RequestVote to 2: {Term:250 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [2] becomes Candidate (currentTerm=255); log=[]
+2024/11/02 15:24:16 [2] election timer started (287ms), term=255
+2024/11/02 15:24:16 [2] sending RequestVote to 1: {Term:255 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [2] sending RequestVote to 3: {Term:255 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [1] becomes Candidate (currentTerm=253); log=[]
+2024/11/02 15:24:16 [1] election timer started (187ms), term=253
+2024/11/02 15:24:16 [1] sending RequestVote to 2: {Term:253 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [1] sending RequestVote to 3: {Term:253 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [3] becomes Candidate (currentTerm=251); log=[]
+2024/11/02 15:24:16 [3] election timer started (176ms), term=251
+2024/11/02 15:24:16 [3] sending RequestVote to 1: {Term:251 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [3] sending RequestVote to 2: {Term:251 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [1] becomes Candidate (currentTerm=254); log=[]
+2024/11/02 15:24:16 [1] election timer started (290ms), term=254
+2024/11/02 15:24:16 [1] sending RequestVote to 2: {Term:254 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [1] sending RequestVote to 3: {Term:254 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [2] becomes Candidate (currentTerm=256); log=[]
+2024/11/02 15:24:16 [2] election timer started (190ms), term=256
+2024/11/02 15:24:16 [2] sending RequestVote to 1: {Term:256 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [2] sending RequestVote to 3: {Term:256 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [3] becomes Candidate (currentTerm=252); log=[]
+2024/11/02 15:24:16 [3] election timer started (266ms), term=252
+2024/11/02 15:24:16 [3] sending RequestVote to 1: {Term:252 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [3] sending RequestVote to 2: {Term:252 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [2] becomes Candidate (currentTerm=257); log=[]
+2024/11/02 15:24:16 [2] election timer started (221ms), term=257
+2024/11/02 15:24:16 [2] sending RequestVote to 3: {Term:257 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [2] sending RequestVote to 1: {Term:257 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [1] becomes Candidate (currentTerm=255); log=[]
+2024/11/02 15:24:16 [1] election timer started (279ms), term=255
+2024/11/02 15:24:16 [1] sending RequestVote to 2: {Term:255 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [1] sending RequestVote to 3: {Term:255 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [3] becomes Candidate (currentTerm=253); log=[]
+2024/11/02 15:24:16 [3] election timer started (174ms), term=253
+2024/11/02 15:24:16 [3] sending RequestVote to 1: {Term:253 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:16 [3] sending RequestVote to 2: {Term:253 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [2] becomes Candidate (currentTerm=258); log=[]
+2024/11/02 15:24:17 [2] election timer started (159ms), term=258
+2024/11/02 15:24:17 [2] sending RequestVote to 1: {Term:258 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [2] sending RequestVote to 3: {Term:258 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [3] becomes Candidate (currentTerm=254); log=[]
+2024/11/02 15:24:17 [3] election timer started (235ms), term=254
+2024/11/02 15:24:17 [3] sending RequestVote to 2: {Term:254 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [3] sending RequestVote to 1: {Term:254 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [1] becomes Candidate (currentTerm=256); log=[]
+2024/11/02 15:24:17 [1] election timer started (255ms), term=256
+2024/11/02 15:24:17 [1] sending RequestVote to 2: {Term:256 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [1] sending RequestVote to 3: {Term:256 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [2] becomes Candidate (currentTerm=259); log=[]
+2024/11/02 15:24:17 [2] election timer started (204ms), term=259
+2024/11/02 15:24:17 [2] sending RequestVote to 1: {Term:259 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [2] sending RequestVote to 3: {Term:259 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [3] becomes Candidate (currentTerm=255); log=[]
+2024/11/02 15:24:17 [3] election timer started (228ms), term=255
+2024/11/02 15:24:17 [3] sending RequestVote to 2: {Term:255 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [3] sending RequestVote to 1: {Term:255 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [1] becomes Candidate (currentTerm=257); log=[]
+2024/11/02 15:24:17 [1] election timer started (186ms), term=257
+2024/11/02 15:24:17 [1] sending RequestVote to 2: {Term:257 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [1] sending RequestVote to 3: {Term:257 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [2] becomes Candidate (currentTerm=260); log=[]
+2024/11/02 15:24:17 [2] election timer started (199ms), term=260
+2024/11/02 15:24:17 [2] sending RequestVote to 1: {Term:260 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [2] sending RequestVote to 3: {Term:260 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [1] becomes Candidate (currentTerm=258); log=[]
+2024/11/02 15:24:17 [1] election timer started (198ms), term=258
+2024/11/02 15:24:17 [1] sending RequestVote to 2: {Term:258 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [1] sending RequestVote to 3: {Term:258 CandidateId:1 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [3] becomes Candidate (currentTerm=256); log=[]
+2024/11/02 15:24:17 [3] election timer started (197ms), term=256
+2024/11/02 15:24:17 [3] sending RequestVote to 2: {Term:256 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [3] sending RequestVote to 1: {Term:256 CandidateId:3 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [2] becomes Candidate (currentTerm=261); log=[]
+2024/11/02 15:24:17 [2] election timer started (271ms), term=261
+2024/11/02 15:24:17 [2] sending RequestVote to 1: {Term:261 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}
+2024/11/02 15:24:17 [2] sending RequestVote to 3: {Term:261 CandidateId:2 LastLogIndex:-1 LastLogTerm:-1}

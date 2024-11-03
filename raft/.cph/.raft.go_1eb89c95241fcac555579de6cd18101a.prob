@@ -1,0 +1,1 @@
+{"name":"Local: raft","url":"a:\\Raft-Algorithm\\Raft-Library\\raft\\raft.go","tests":[{"id":1730538267147,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"a:\\Raft-Algorithm\\Raft-Library\\raft\\raft.go","group":"local","local":true}
